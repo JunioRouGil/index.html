@@ -7,7 +7,7 @@ body {
   font-family: 'Muli', sans-serif;
 }
 
-.banner-back{
+.banner-back {
   position: relative;
   background-image: url(../_images/MENINO-TABLET.jpg); 
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body {
   width: 1177px;
   height: 481px;
   left: 0.25%;
-  }
+}
 
 .nav-item {
   color: #000000;
@@ -85,16 +85,11 @@ footer {
   text-align: right;
   font-style: italic;
 }
-span i {
-  position: relative;
-  left: 11em;
-  margin-bottom: 23px;
-}
+
 hr {
-  width: 75%;
+  width: 60%;
 }
-#hr2 {
+.socialMediaIcons {
   position: relative;
-  width: 58%;
-  right: 20px;
+  left: 3.5em;
 }

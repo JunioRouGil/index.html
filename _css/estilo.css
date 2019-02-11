@@ -6,28 +6,36 @@ body {
   font-family: 'Muli', sans-serif;
 }
 
-a {
-  color: black;
+.banner-back{
+  background-image: url("/_images/MENINO-TABLET.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1199px;
+  height: 481px;
+  }
+
+.nav-item {
+  color: #000000;
 }
 
-a:hover {
-  border-bottom: 2px solid purple;
+.texto-banner {
+  width: 600px;
+  font-family: Muli;
+  font-size: 71px;
+  font-weight: 900;
+  font-style: bold;
+  font-stretch: normal;
+  line-height: 1.08;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6a24be;
 }
 
-.banner-principal {
-  color: #ffffff;
-  background-color: purple;
-}
-
-.sub-menu-blog {
-  background-color: gray;
-  color: white;
-  padding: 0.5em;
-}
-
-.sub-menu-blog ul li {
-  display: inline;
-  padding: 2em;
+.boto {
+  width: 135px;
+  height: 45px;
+  border-radius: 8px;
+  background-color: #467f36;
 }
 
 .cadastro {

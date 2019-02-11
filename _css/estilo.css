@@ -9,10 +9,10 @@ body {
 
 .banner-back{
   position: relative;
-  background-image: url("../_images/MENINO-TABLET.jpg"); 
+  background-image: url(../_images/MENINO-TABLET.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1185px;
+  width: 1177px;
   height: 481px;
   left: 0.25%;
   }
@@ -32,6 +32,10 @@ body {
   letter-spacing: normal;
   text-align: left;
   color: #6a24be;
+}
+.img-thumbnail {
+  border: 0;
+  border-radius: 0;
 }
 
 .boto {
@@ -77,6 +81,20 @@ footer {
   font-size: 90%;
   text-align: center;
 }
-.imgArtigo {
-    border: 2px solid black;
+.quote {
+  text-align: right;
+  font-style: italic;
+}
+span i {
+  position: relative;
+  left: 11em;
+  margin-bottom: 23px;
+}
+hr {
+  width: 75%;
+}
+#hr2 {
+  position: relative;
+  width: 58%;
+  right: 20px;
 }

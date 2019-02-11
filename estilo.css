@@ -17,14 +17,17 @@ margin: -15px;
 
 nav ul li {
   display: inline;
+  text-align: right;
 }
-
+.mr-auto {
+  margin-right: 1px;
+}
 
 a {
   color: black;
 }
 
-a:hover {
+a: hover {
   border-bottom: 2px solid purple;
 }
 
@@ -93,7 +96,4 @@ footer {
   padding: 1em;
   font-size: 90%;
   text-align: center;
-}
-div #img1 {
-  justify-content: flex-start;
 }

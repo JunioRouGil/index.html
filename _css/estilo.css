@@ -75,3 +75,8 @@ footer {
   font-size: 90%;
   text-align: center;
 }
+
+.quote {
+  text-align: right;
+  font-style: italic;
+}

@@ -1,6 +1,6 @@
 * div {
   margin: 0;
-  padding: 1em;
+  padding: 1.35em;
 }
 
 html {
@@ -57,6 +57,10 @@ a:hover {
 
 .display-flex {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .box-conteudo {
@@ -76,7 +80,6 @@ section {
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: center;
 }
 footer {
   background-color: gray;
@@ -90,4 +93,7 @@ footer {
   padding: 1em;
   font-size: 90%;
   text-align: center;
+}
+div #img1 {
+  justify-content: flex-start;
 }

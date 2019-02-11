@@ -1,20 +1,10 @@
-<<<<<<< HEAD:_css/estilo.css
 html {
-  font-size: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Muli', sans-serif;
 }
-
-img {
-margin: -15px;
-}
-
-nav ul li {
-  display: inline;
-}
-
 
 a {
   color: black;
@@ -25,8 +15,8 @@ a:hover {
 }
 
 .banner-principal {
+  color: #ffffff;
   background-color: purple;
-  padding: 3em;
 }
 
 .sub-menu-blog {
@@ -43,13 +33,12 @@ a:hover {
 .cadastro {
   background-color: orange;
   color: white;
-  padding: 2em; 
-  width: 100%;
 }
 
-
-.display-flex {
-  display: flex;
+.img-post {
+    background: gray;
+    height: 350px;
+    width: 650px;
 }
 
 .box-conteudo {
@@ -57,20 +46,6 @@ a:hover {
   padding-right: 2em;
 }
 
-.flex-end {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.text-align-center {
-  text-align: center;
-}
-section {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-}
 footer {
   background-color: gray;
   color: white;
@@ -83,104 +58,4 @@ footer {
   padding: 1em;
   font-size: 90%;
   text-align: center;
-=======
-* div {
-  margin: 0;
-  padding: 1.35em;
-}
-
-html {
-  font-size: 100%;
-}
-
-body {
-  font-family: 'Muli', sans-serif;
-}
-
-img {
-margin: -15px;
-}
-
-nav ul li {
-  display: inline;
-  text-align: right;
-}
-.mr-auto {
-  margin-right: 1px;
-}
-
-a {
-  color: black;
-}
-
-a: hover {
-  border-bottom: 2px solid purple;
-}
-
-.banner-principal {
-  background-color: purple;
-  color: white;
-  padding: 3em;
-  text-align: left;
-  width: 100%;
-}
-
-.sub-menu-blog {
-  background-color: gray;
-  color: white;
-  padding: 0.5em;
-}
-
-.sub-menu-blog ul li {
-  display: inline;
-  padding: 2em;
-}
-
-.cadastro {
-  background-color: orange;
-  color: white;
-  padding: 2em; 
-  width: 100%;
-}
-
-
-.display-flex {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
-}
-
-.box-conteudo {
-  align-items: center;
-  padding-right: 2em;
-}
-
-.flex-end {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.text-align-center {
-  text-align: center;
-}
-section {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
-footer {
-  background-color: gray;
-  color: white;
-  padding: 2em;
-}
-
-.desenvolvedores {
-  background-color: black;
-  color: white;
-  padding: 1em;
-  font-size: 90%;
-  text-align: center;
->>>>>>> master:estilo.css
 }

@@ -8,11 +8,13 @@ body {
 }
 
 .banner-back{
-  background-image: url("/_images/MENINO-TABLET.jpg"); 
+  position: relative;
+  background-image: url("../_images/MENINO-TABLET.jpg"); 
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1191px;
+  width: 1185px;
   height: 481px;
+  left: 0.25%;
   }
 
 .nav-item {
@@ -75,8 +77,6 @@ footer {
   font-size: 90%;
   text-align: center;
 }
-
-.quote {
-  text-align: right;
-  font-style: italic;
+.imgArtigo {
+    border: 2px solid black;
 }

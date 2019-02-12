@@ -3,6 +3,25 @@ html {
     font-size: 1rem;
 }
 
+
+/* CORES */
+.roxo {
+    color:#6a24be; 
+    }
+.rosa {
+    color: #cc0249;
+    }
+.laranja {
+    color: #ee2902;
+    }
+.preto {
+    color: #111111;
+    }
+.verde {
+    color: #467f36;
+    }
+
+
 body {
   font-family: 'Muli', sans-serif;
 }
@@ -12,19 +31,19 @@ body {
   background-image: url(../_images/MENINO-TABLET.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1177px;
-  height: 481px;
-  left: 0.25%;
+  width: 100%;
+  min-height: 450px;
+  /*left: 0.25%;*/
 }
 
 .nav-item {
   color: #000000;
 }
 
-.texto-banner {
-  width: 600px;
+/*.texto-banner {
+  max-width: 600px;
   font-family: Muli;
-  font-size: 71px;
+  font-size: 70px;
   font-weight: 900;
   font-style: bold;
   font-stretch: normal;
@@ -32,7 +51,8 @@ body {
   letter-spacing: normal;
   text-align: left;
   color: #6a24be;
-}
+}*/
+
 .img-thumbnail {
   border: 0;
   border-radius: 0;
@@ -45,7 +65,7 @@ body {
   background-color: #467f36;
 }
 
-.titulo-post{
+/*.titulo-post{
   font-family: Muli;
   font-size: 55.5px;
   font-weight: 900;
@@ -67,7 +87,7 @@ body {
   letter-spacing: normal;
   text-align: left;
   color: #111111;
-}
+}*/
 footer {
   background-color: gray;
   color: white;
@@ -92,4 +112,113 @@ hr {
 .socialMediaIcons {
   position: relative;
   left: 3.5em;
+}
+
+
+
+
+
+/*FABI*/
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5em;
+        font-weight: 900;
+        line-height: 1.08;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+    h2 {
+        font-size: 1em;
+        line-height: 1.5;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+    .texto-banner {
+        max-width: 80%;
+        text-align: left;
+    }
+}
+
+
+
+@media (min-width: 577px) {
+    h1 {
+        font-size: 2em;
+        font-weight: 900;
+        line-height: 1.08;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+    h2 {
+        font-size: 1.3em;
+        line-height: 1.5;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+    .texto-banner {
+        max-width: 80%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 3em;
+        font-weight: 900;
+        line-height: 1.08;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+    h2 {
+        font-size: 1.3em;
+        line-height: 1.5;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+    .texto-banner {
+        text-align: left;
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 4.5em;
+        font-weight: 900;
+        line-height: 1.08;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+    h2 {
+        font-size: 1.8em;
+        line-height: 1.5;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+    .texto-banner {
+        text-align: left;
+        max-width: 65%;
+    }
 }

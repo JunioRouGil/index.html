@@ -32,7 +32,6 @@ body {
 
 .banner-back {
     position: relative;
-    background-image: url(../_images/MENINO-TABLET.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -69,7 +68,7 @@ body {
     background-color: #467f36;
 }
 
-/*.titulo-post{
+/*.titulo-destaque{
   font-family: Muli;
   font-size: 55.5px;
   font-weight: 900;
@@ -107,18 +106,19 @@ footer {
 }
 
 .quote {
-    text-align: right;
+    font-family: Georgia,'Times New Roman',Gabriola;
+    text-align: center;
     font-style: italic;
+    color: #444444;
+    font-size: 1.2em;
+    line-height: 1.3;
+    background-color:#F2DA7A;
 }
 
 hr {
     width: 60%;
 }
 
-.socialMediaIcons {
-    position: relative;
-    left: 3.5em;
-}
 
 
 
@@ -154,7 +154,7 @@ hr {
         text-align: left;
     }
 
-    .titulo-post {
+    .titulo-destaque {
         font-size: 1.2em;
         font-weight: 900;
         line-height: 1.08;
@@ -171,6 +171,28 @@ hr {
         font-stretch: normal;
         line-height: 1.1;
         letter-spacing: normal;
+    }
+
+    .titulo-post {
+        font-size: 2em;
+        font-weight: 900;
+        line-height: 1.08;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+    .olho-post {
+        font-family: Muli;
+        font-size: 16px;
+        font-weight: 300;
+        font-style: italic;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        padding-top: 0.3em;
+        padding-bottom: 0.6em;
+        color:#353535;
     }
 }
 
@@ -200,7 +222,7 @@ hr {
     }
 
 
-    .titulo-post {
+    .titulo-destaque {
         font-size: 1.5em;
         font-weight: 900;
         line-height: 1.08;
@@ -220,6 +242,30 @@ hr {
         line-height: 1.1;
         letter-spacing: normal;
     }
+
+    .titulo-post {
+        font-size: 2em;
+        font-weight: 900;
+        line-height: 1.08;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+    .olho-post {
+        font-family: Muli;
+        font-size: 16px;
+        font-weight: 300;
+        font-style: italic;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        padding-top: 0.3em;
+        padding-bottom: 0.6em;
+        color: #353535;
+    }
+
+
 }
 
 @media (min-width: 992px) {
@@ -246,7 +292,7 @@ hr {
     }
 
 
-    .titulo-post {
+    .titulo-destaque {
         font-size: 1.7em;
         font-weight: 900;
         line-height: 1.08;
@@ -266,6 +312,29 @@ hr {
         line-height: 1.1;
         letter-spacing: normal;
     }
+
+    .titulo-post {
+        font-size: 2.6em;
+        font-weight: 900;
+        line-height: 1.08;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+    .olho-post {
+        font-family: Muli;
+        font-size: 1em;
+        font-weight: 300;
+        font-style: italic;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        padding-top: 0.3em;
+        padding-bottom: 0.6em;
+        color: #353535;
+    }
+
 }
 
 @media (min-width: 1200px) {
@@ -286,13 +355,21 @@ hr {
         letter-spacing: normal;
     }
 
+    h3 {
+        font-size: 1.8em;
+        line-height: 1.5;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
     .texto-banner {
         text-align: left;
         max-width: 65%;
     }
 
 
-    .titulo-post {
+    .titulo-destaque {
         font-size: 2em;
         font-weight: 900;
         line-height: 1.08;
@@ -300,8 +377,6 @@ hr {
         font-stretch: normal;
         letter-spacing: normal;
     }
-
-
 
     .resumo-post {
         font-family: Muli;
@@ -312,6 +387,48 @@ hr {
         line-height: 1.1;
         letter-spacing: normal;
     }
+
+    .titulo-post {
+        font-size: 3em;
+        font-weight: 900;
+        line-height: 1.08;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+    .olho-post {
+        font-family: Muli;
+        font-size: 1.2em;
+        font-weight: 300;
+        font-style: italic;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+        padding-top: 0.3em;
+        padding-bottom: 0.6em;
+        color: #353535;
+    }
+
+    .titulo-destaque-post {
+        font-size: 1.5em;
+        font-weight: 900;
+        line-height: 1.08;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+    .resumo-post-post {
+        font-family: Muli;
+        font-size: 1em;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+    }
+
 }
 
 .texto-esquerda-direita {
@@ -326,8 +443,8 @@ hr {
     text-align: right;
 }
 
-footer a{
-    color:#dddddd;
+footer a {
+    color: #dddddd;
 }
 
     footer a:hover {
@@ -335,5 +452,52 @@ footer a{
     }
 
 .logo-rodape {
-    opacity:0.5;
+    opacity: 0.5;
+}
+
+.socialMediaIcons {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+    .socialMediaIcons i {
+        color: #000000;
+        font-size: 24px;
+        padding: 8px 10px;
+        margin: 0;
+        text-align: center;
+        position: relative;
+    }
+
+    .socialMediaIcons:hover {
+        border-radius: 5px;
+        background-color: #cc0249;
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+        display: inline-block;
+    }
+
+
+        .socialMediaIcons:hover i {
+            color: #ffffff;
+            font-size: 24px;
+            padding: 8px 10px;
+            margin: 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .social-media{
+            text-decoration:none;
+            color:#ffffff;
+        }
+
+.outros-posts a {
+    text-decoration: none;
+    color:#111111;
 }

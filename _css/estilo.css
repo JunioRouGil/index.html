@@ -6,38 +6,42 @@ html {
 
 /* CORES */
 .roxo {
-    color:#6a24be; 
-    }
+    color: #6a24be;
+}
+
 .rosa {
     color: #cc0249;
-    }
+}
+
 .laranja {
     color: #ee2902;
-    }
+}
+
 .preto {
     color: #111111;
-    }
+}
+
 .verde {
     color: #467f36;
-    }
+}
 
 
 body {
-  font-family: 'Muli', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 .banner-back {
-  position: relative;
-  background-image: url(../_images/MENINO-TABLET.jpg); 
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  min-height: 450px;
-  /*left: 0.25%;*/
+    position: relative;
+    background-image: url(../_images/MENINO-TABLET.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 450px;
+    /*left: 0.25%;*/
 }
 
 .nav-item {
-  color: #000000;
+    color: #000000;
 }
 
 /*.texto-banner {
@@ -54,15 +58,15 @@ body {
 }*/
 
 .img-thumbnail {
-  border: 0;
-  border-radius: 0;
+    border: 0;
+    border-radius: 0;
 }
 
 .boto {
-  width: 135px;
-  height: 45px;
-  border-radius: 8px;
-  background-color: #467f36;
+    width: 135px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: #467f36;
 }
 
 /*.titulo-post{
@@ -89,29 +93,31 @@ body {
   color: #111111;
 }*/
 footer {
-  background-color: gray;
-  color: white;
-  padding: 2em;
+    background-color: #291F3B;
+    color: white;
+    padding: 2em;
 }
 
 .desenvolvedores {
-  background-color: black;
-  color: white;
-  padding: 1em;
-  font-size: 90%;
-  text-align: center;
+    background-color: black;
+    color: #999999;
+    padding: 1em;
+    font-size: 90%;
+    text-align: center;
 }
+
 .quote {
-  text-align: right;
-  font-style: italic;
+    text-align: right;
+    font-style: italic;
 }
 
 hr {
-  width: 60%;
+    width: 60%;
 }
+
 .socialMediaIcons {
-  position: relative;
-  left: 3.5em;
+    position: relative;
+    left: 3.5em;
 }
 
 
@@ -147,6 +153,25 @@ hr {
         max-width: 80%;
         text-align: left;
     }
+
+    .titulo-post {
+        font-size: 1.2em;
+        font-weight: 900;
+        line-height: 1.08;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+    .resumo-post {
+        font-family: Muli;
+        font-size: 0.8em;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+    }
 }
 
 
@@ -173,6 +198,28 @@ hr {
         max-width: 80%;
         text-align: left;
     }
+
+
+    .titulo-post {
+        font-size: 1.5em;
+        font-weight: 900;
+        line-height: 1.08;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+
+
+    .resumo-post {
+        font-family: Muli;
+        font-size: 0.9em;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+    }
 }
 
 @media (min-width: 992px) {
@@ -196,6 +243,28 @@ hr {
     .texto-banner {
         text-align: left;
         max-width: 70%;
+    }
+
+
+    .titulo-post {
+        font-size: 1.7em;
+        font-weight: 900;
+        line-height: 1.08;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+
+
+    .resumo-post {
+        font-family: Muli;
+        font-size: 1.1em;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
     }
 }
 
@@ -221,4 +290,50 @@ hr {
         text-align: left;
         max-width: 65%;
     }
+
+
+    .titulo-post {
+        font-size: 2em;
+        font-weight: 900;
+        line-height: 1.08;
+        font-family: Muli;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+
+
+
+    .resumo-post {
+        font-family: Muli;
+        font-size: 1.3em;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.1;
+        letter-spacing: normal;
+    }
+}
+
+.texto-esquerda-direita {
+    padding: 50px;
+    margin: 0;
+    text-align: left;
+}
+
+.texto-direita-esquerda {
+    padding: 50px;
+    margin: 0;
+    text-align: right;
+}
+
+footer a{
+    color:#dddddd;
+}
+
+    footer a:hover {
+        color: #F2DA7A;
+    }
+
+.logo-rodape {
+    opacity:0.5;
 }
